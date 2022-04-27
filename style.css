@@ -1,0 +1,89 @@
+body {
+    background:#202020;
+}
+.plus{
+    color:orangered;
+    font-size:30px;
+    width:auto;
+    height:auto;
+    padding:3rem;
+    background:lavender;
+    border-radius:100%;
+    position:absolute;
+    top:50%;
+    left:41%;
+    font-weight:bolder;
+    font-size:5em;
+}    
+.plus:hover{
+    background:orangered;    
+    color:lavender;
+}
+.minus{
+    color:orangered;
+    font-size:30px;
+    width:auto;
+    height:auto;
+    padding:3rem;
+    background:lavender;
+    border-radius:100%;
+    position:absolute;
+    top:50%;
+    left:41%;
+    font-weight:bolder;
+    font-size:5em;
+    display:none;
+}
+.minus:hover{
+    background:orangered;    
+    color:lavender;
+}
+.person{
+    color:orangered;
+    font-size:30px;
+    width:auto;
+    height:auto;
+    padding:3rem;
+    background:lavender;
+    border-radius:100%;
+    position:absolute;
+    top:50%;
+    left:41%;
+    font-weight:bolder;
+    font-size:5em;
+    transition:0.75s;
+}
+.group{
+    color:orangered;
+    font-size:30px;
+    width:auto;
+    height:auto;
+    padding:3rem;
+    background:lavender;
+    border-radius:100%;
+    position:absolute;
+    top:50%;
+    left:41%;
+    font-weight:bolder;
+    font-size:5em;
+    transition:0.50s;
+}
+.call{
+    color:orangered;
+    font-size:30px;
+    width:auto;
+    height:auto;
+    padding:3rem;
+    background:lavender;
+    border-radius:100%;
+    position:absolute;
+    top:50%;
+    left:41%;
+    font-weight:bolder;
+    font-size:5em;
+    transition:0.25s;
+}
+.person:hover,.group:hover,.call:hover{
+    background:orangered;    
+    color:lavender;
+}
